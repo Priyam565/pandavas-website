@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE PANDAVAS COMPANY PVT. LTD.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease;
+        }
+        header {
+            background: linear-gradient(45deg, #4CAF50, #1E90FF);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        header img {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 60px;
+            height: 60px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            margin: 30px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 2em;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .members ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .members li {
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .members li:hover {
+            background-color: #45a049;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .business-plan {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .business-plan h3 {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .business-plan ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .business-plan li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .business-plan li span {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .business-plan li:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+        .form-container input[type="text"], .form-container input[type="email"], .form-container textarea, .form-container select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+        .form-container input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .form-container textarea {
+            font-family: Arial, sans-serif;
+            font-size: 1em;
+            resize: vertical;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                float: none;
+                width: 100%;
+                text-align: left;
+                padding: 14px;
+            }
+            header img {
+                display: block;
+                margin: 0 auto;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="URL_to_your_logo" alt="Logo">
+        <h1>THE PANDAVAS COMPANY PVT. LTD.</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#motive">Our Motive</a>
+        <a href="#rules">Rules</a>
+        <a href="#members">Members</a>
+        <a href="#conclusion">Conclusion</a>
+        <a href="#business-plans">Business Plans</a>
+        <a href="#jobs">Job Application</a>
+    </nav>
+    <section id="about" class="container">
+        <h2>ABOUT THE PANDAVAS COMPANY PVT. LTD.</h2>
+        <p>The Pandavas Company Pvt. Ltd. is inspired by the legendary heroes of the Indian epic Mahabharata. We are committed to promoting values such as bravery, righteousness, and unwavering commitment to dharma (righteousness).</p>
+    </section>
+    <section id="motive" class="container">
+        <h2>OUR MOTIVE</h2>
+        <p>Our motive is to inspire and guide people towards living a life of integrity, courage, and honor, just like The Pandavas.</p>
+    </section>
+    <section id="rules" class="container">
+        <h2>RULES</h2>
+        <ul>
+            <li>Always act with honesty and integrity.</li>
+            <li>Stand up for what is right, even in the face of adversity.</li>
+            <li>Respect and support your family and friends.</li>
+            <li>Strive for excellence in all your endeavors.</li>
+        </ul>
+    </section>
+    <section id="members" class="container">
+        <h2>MEMBERS</h2>
+        <div class="members">
+            <ul>
+                <li>Yudhishthira</li>
+                <li>Bheema</li>
+                <li>Arjuna</li>
+                <li>Nakula</li>
+                <li>Sahadeva</li>
+                <li>Karna</li>
+            </ul>
+        </div>
+    </section>
+    <section id="conclusion" class="container">
+        <h2>CONCLUSION</h2>
+        <p>The Pandavas Company Pvt. Ltd. embodies virtue and courage. We remind our community that no matter the challenges we face, staying true to our values and supporting each other is what truly makes us strong.</p>
+    </section>
+    <section id="business-plans" class="container">
+        <h2>OUR BUSINESS PLANS</h2>
+
+        <!-- CAFE -->
+        <div class="business-plan">
+            <h3>CAFE</h3>
+            <p>Our cafe offers a variety of light meals and drinks perfect for a quick bite or a relaxing day out.</p>
+            <ul>
+                <li><span>Coffee:</span> Espresso, Cappuccino, Latte, Americano</li>
+                <li><span>Tea:</span> Green Tea, Black Tea, Herbal Tea</li>
+                <li><span>Snacks:</span> Croissants, Muffins, Cookies, Brownies</li>
+                <li><span>Sandwiches:</span> Grilled Chicken, Veggie Delight, Tuna</li>
+                <li><span>Pastries:</span> Scones, Danish, Cheesecake</li>
+            </ul>
+        </div>
+
+        <!-- BAR -->
+        <div class="business-plan">
+            <h3>BAR</h3>
+            <p>Relax and unwind with a drink at our bar, serving a wide range of cocktails, mocktails, and spirits.</p>
+            <ul>
+                <li><span>Cocktails:</span> Margarita, Mojito, Martini, Cosmopolitan</li>
+                <li><span>Mocktails:</span> Virgin Mojito, Fruit Punch, Lemonade</li>
+                <li><span>Beer & Spirits:</span> Craft Beers, Whiskey, Vodka, Rum</li>
+                <li><span>Appetizers:</span> Nachos, Fries, Chicken Wings</li>
+            </ul>
+        </div>
+
+        <!-- RESTAURANT -->
+        <div class="business-plan">
+            <h3>RESTAURANT</h3>
+            <p>Our restaurant offers a full dining experience, serving delicious meals for breakfast, lunch, and dinner.</p>
+            <ul>
+                <li><span>Starters:</span> Soup of the Day, Garlic Bread, Spring Rolls</li>
+                <li><span>Main Courses:</span> Butter Chicken, Veg Tikka Masala, Grilled Salmon</li>
+                <li><span>Vegetarian:</span> Paneer Tikka, Veg Biryani, Stuffed Bell Peppers</li>
+                <li><span>Salads:</span> Caesar Salad, Greek Salad, Quinoa Salad</li>
+                <li><span>Desserts:</span> Chocolate Lava Cake, Gulab Jamun, Ice Cream</li>
+            </ul>
+        </div>
+    </section>
+    <section id="jobs" class="container">
+        <h2>JOB APPLICATION</h2>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age" required><br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="reason">Why do you want to join The Pandavas?</label><br>
+                <textarea id="reason" name="reason" rows="4" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 The Pandavas Company Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
